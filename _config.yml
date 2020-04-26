@@ -8,20 +8,16 @@ appstore_link                             :                                     
 
 app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  : SuperFastBudget                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_price                                 : 0                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_price                                 : FREE                                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_description                           : Budget faster than ever
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
-
-
 # Information About Yourself
 your_name                                 : Andrew Yang
-your_link                                 : https://andrw.github.io                     
+your_link                                 : http://instagram.com/andrwyng    
 your_city                                 : Seattle                                
 email_address                             : androo.yang@gmail.com
-
-
 
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
@@ -30,7 +26,7 @@ features                                  :
     description                           : We believe it that logging your spending should be as quick and painless as possible, and we've built our app for exactly that.
     fontawesome_icon_name                 : magic
     
-  - title                                 : Auto-complete for Names and Categories
+  - title                                 : Auto-complete
     description                           : We recommend auto-complete text for names and categories you spend frequently on.
     fontawesome_icon_name                 : link
 
@@ -38,15 +34,17 @@ features                                  :
     description                           : Grouping your spending by category helps you understand where you may be over-spending.
     fontawesome_icon_name                 : star
 
-  - title                                 : Secure.
+  - title                                 : Secure
     description                           : All data is stored locally to your device and is not uploaded.
     fontawesome_icon_name                 : sync
+    
+  - title                                 : Constant Updates
+    description                           : We have a lot of grand plans for this app. Join us for the ride.
+    fontawesome_icon_name                 : redo
     
   - title                                 : # New Feature Title
     description                           : # New Feature Description
     fontawesome_icon_name                 : # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.
-
-
 
 # Theme Settings
 topbar_color                              : "#000000"
